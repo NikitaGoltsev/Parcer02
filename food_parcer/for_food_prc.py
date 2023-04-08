@@ -22,3 +22,5 @@ src = req.text
 
 with open("index.html", "w") as file:
     file.write(src) # To not be banned with to much acces from one device 
+
+# after save - we are able to use parcer on local file
